@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Random Generator</title>
+	<link rel="stylesheet" href="random-generator.css">
+</head>
+
+<body id='main-body'>
+	<div id='top'>
+		<div class='left'>
+			<span>Random from:</span>
+			<input id='startNumber' type="number" value='0' min='0' />
+			<span>to:</span>
+			<input id='endNumber' type="number" value='10' min='0' />
+		</div>
+		<div class='right'>
+			<input type="button" id='start' value='Start Rolling' />
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div id='displayed-number-div' class="clearfix">
+		<div id='displayed-number'>Random Number</div>
+	</div>
+	<div id='bottom'>
+		<div class='right'>
+			<a href="https://www.google.com.vn">
+				<input type="button" id='change-mode-btn' value="Go to Countdown Timer">
+			</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</body>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="detect-element-resize/jquery.resize.js"></script>
+<script type="text/javascript" src="timer.js"></script>
+<script type="text/javascript" src="random-generator-autosizetext.js"></script>
+<script type="text/javascript" src="random-generator.js"></script>
+
+</html>

@@ -1,0 +1,50 @@
+body, html {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   width: 100%;
+}
+#main-body {
+   background: beige;
+}
+.clearfix {
+   clear:both;
+}
+
+#top {
+   padding: 8px;
+   height: 20px;
+}
+.left {
+   float: left;
+}
+.right {
+   float: right;
+}
+
+#displayed-number-div {
+   height: calc(100% - 40px - 32px);
+   display: table;
+   width: 100%;
+}
+#displayed-number {
+   font-family: monospace;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   white-space: nowrap;
+   position: absolute;
+}
+
+#bottom {
+   padding: 8px;
+   height: 20px;
+   background: gray;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   left: 0;
+}
